@@ -13,7 +13,7 @@ class ViewController: UIViewController {
     @IBOutlet weak var secondNumber: UITextField!
     @IBOutlet weak var resultNumber: UILabel!
     var result = 0
-   
+   //Commit
     @IBAction func toplaFunc(_ sender: Any) {
         if let numFirst = Int(firstNumber.text!){
             if let numSecond = Int(secondNumber.text!){
